@@ -1,5 +1,6 @@
 package git.main;
 
+import Entidad.Direccion;
 import Entidad.Persona;
 
 public class Main {
@@ -11,7 +12,13 @@ public class Main {
 		Persona p = new Persona();
 		p.setNombre("Steve Rogers");
 		p.setEdad(45);
+		
 		System.out.println(p);
+		
+		Direccion d = new Direccion();
+		d.setNombreVia("calle mar del plata");
+		d.getTipoVia("calle");
+		d.setPais("Argentina");
 		
 		
 	}
