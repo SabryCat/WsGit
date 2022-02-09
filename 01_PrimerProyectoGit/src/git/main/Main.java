@@ -16,14 +16,11 @@ public class Main {
 		System.out.println(p);
 		
 		Direccion d = new Direccion();
-		d.setNombreVia("calle mar del plata");
-		d.getTipoVia("calle");
-		d.setPais("Argentina");
 		
 		d.setNombreVia("Trece Rue de Percebe");
 		d.setTipoVia("calle");
 		d.setCuidad("Madrid");
-		
+		d.setPais("España");
 	}
 
 }
