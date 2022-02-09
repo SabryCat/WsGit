@@ -5,8 +5,15 @@ public class Direccion {
 	private String tipoVia;
 	private String nombreVia; 
 	private String cogigoPostal;
+	private String cuidad;
 	
 	
+	public String getCuidad() {
+		return cuidad;
+	}
+	public void setCuidad(String cuidad) {
+		this.cuidad = cuidad;
+	}
 	public String getTipoVia() {
 		return tipoVia;
 	}
